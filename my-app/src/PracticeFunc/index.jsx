@@ -3,6 +3,11 @@ import { useState } from "react";
 
 const PracticeFunc = ({ prop }) => {
   const [state, setState] = useState();
+  const [result, seResult] = useState();
+
+  // const myFunc = prop => {
+  //     return prop
+  // };
 
   const handleChange = (event) => {
     setState(event.target.value);
