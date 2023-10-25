@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "web-dev-server --node-resolve --open --watch"
   },
   "keywords": [],
   "author": "Anton Zinchenko <zinchenko309@gmail.com> (https://tapasadhikary.com/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@web/dev-server": "^0.3.6"
+  }
 }
